@@ -37,8 +37,9 @@ To use the WorkTrack CLI globally on your machine, link it using npm:
 
 ```bash
 npm link
-This command will create a global symlink so you can run planner from anywhere.
 ```
+This command will create a global symlink so you can run planner from anywhere.
+
 Usage
 Once you have linked the command globally, you can start tracking your tasks by running:
 

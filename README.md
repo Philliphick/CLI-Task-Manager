@@ -25,14 +25,14 @@ git clone https://github.com/your-username/worktrack-cli.git
 cd worktrack-cli
 ```
 
-###Step 2: Install Dependencies
+### Step 2: Install Dependencies
 Run the following command to install the necessary dependencies:
 
 ```bash
 npm install
 ```
 
-###Step 3: Link the Command Globally
+### Step 3: Link the Command Globally
 To use the WorkTrack CLI globally on your machine, link it using npm:
 
 ```bash

@@ -25,14 +25,14 @@ git clone https://github.com/your-username/worktrack-cli.git
 cd worktrack-cli
 ```
 
-Step 2: Install Dependencies
+###Step 2: Install Dependencies
 Run the following command to install the necessary dependencies:
 
 ```bash
 npm install
 ```
 
-Step 3: Link the Command Globally
+###Step 3: Link the Command Globally
 To use the WorkTrack CLI globally on your machine, link it using npm:
 
 ```bash
@@ -40,7 +40,7 @@ npm link
 ```
 This command will create a global symlink so you can run planner from anywhere.
 
-Usage
+#Usage
 Once you have linked the command globally, you can start tracking your tasks by running:
 
 ```bash
@@ -54,7 +54,7 @@ Comments/Reminders – Optional field for any additional comments.
 More tasks – After completing one task, you’ll be asked if you want to add more tasks. Type "yes" to continue or "no" to generate a PDF report.
 The tool will calculate the total estimated duration of your tasks and generate a PDF report containing the details.
 
-Output
+#Output
 Once you finish entering your tasks, a PDF report will be generated with the following information:
 
 Task title
@@ -79,5 +79,6 @@ Great! Any more tasks you'd like to get done for the day? No
 
 Work report saved as "work_track_1631548201000.pdf"
 ```
-Contributing
+#Contributing
+
 Feel free to fork this repository and submit pull requests! Contributions are welcome.

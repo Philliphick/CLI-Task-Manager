@@ -1,17 +1,10 @@
 #!/usr/bin/env node
 
-import chalk from "chalk";
 import inquirer from "inquirer";
 import { select } from "@inquirer/prompts";
 import fs from "fs";
 import PDFDocument from "pdfkit";
-import { sign } from "crypto";
 
-// qs : task name, duration, project name?, other comments?
-
-// const template = `
-
-// `;
 let answers = [];
 
 const taskQuestions = [
